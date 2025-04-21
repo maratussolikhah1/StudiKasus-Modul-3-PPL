@@ -1,19 +1,32 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
+# Laravel specific
+/vendor/
+.node_modules/
+public/build/
+public/hot/
+public/storage/
+storage/*.key
+
+# Environment files
 .env
 .env.backup
 .env.production
+
+# PHPUnit and test files
+.phpunit.cache
 .phpunit.result.cache
+
+# Homestead and Vagrant configuration
 Homestead.json
 Homestead.yaml
+
+# Composer & NPM logs
 auth.json
 npm-debug.log
 yarn-error.log
+
+# JetBrains/IDE specific
 /.fleet
 /.idea
+
+# VSCode specific
 /.vscode
